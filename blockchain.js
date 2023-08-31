@@ -37,7 +37,7 @@ class Blockchain {
   generateHash(block) {
     let hash = sha256(block.key);
 
-    while (!hash.startsWith('00')) {
+    while (!hash.startsWith('0000')) {
       block.nonce++;
       hash = sha256(block.key);
       console.log(hash);

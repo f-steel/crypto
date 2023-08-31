@@ -9,4 +9,8 @@ let blockchain = new Blockchain(genesisBlock);
 let block = blockchain.generateNextBlock([transaction]);
 blockchain.addBlock(block);
 
+let anotherTransaction = new Transaction('Steve', 'Brian', 500);
+let block1 = blockchain.generateNextBlock([anotherTransaction]);
+blockchain.addBlock(block1);
+
 console.log(blockchain);
