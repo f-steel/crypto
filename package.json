@@ -1,0 +1,22 @@
+{
+  "name": "chain",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/f-steel/crypto.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/f-steel/crypto/issues"
+  },
+  "homepage": "https://github.com/f-steel/crypto#readme",
+  "dependencies": {
+    "js-sha256": "^0.10.1"
+  }
+}
